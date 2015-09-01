@@ -1,0 +1,81 @@
+/**
+ * Pallette
+ *
+ *          dark     light
+ * Blacks:  #232323, #333333
+ * Blues:   #003399, #2A52BE 
+ * Greens:  #224C25, #03C03C
+ * Yellows: #FFF700, #FDFD96
+ * Reds:    #B22222, #FF6961
+ * Whites:  #EDEDED, #F5F5F5
+ */
+
+body {
+    font-family: Hack, monospace;
+    font-size: 12pt;
+    line-height: 14pt;
+    color: #EDEDED;
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #003399;
+}
+
+a:hover {
+    color: #2A52BE;
+}
+
+a:visited {
+    color: #FF6961;
+}
+
+.nav {
+    top: 0;
+    left: 0;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 14pt;
+    line-height: 18pt;
+    background-color: #232323;
+    box-shadow: #224C25 2px 2px 10px 1px;
+}
+
+.nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.nav li:hover {
+    background-color: #FFF700;
+}
+
+.content {
+    border-radius: 0;
+    box-shadow: #224C25 3px 3px 15px 2px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #232323;
+}
+
+.base-btn {
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    box-shadow: #FF6961 3px 2px 9px 1px;
+    background-color: #B22222;
+    color: #F5F5F5;
+}
+
+.base-btn:hover {
+    box-shadow: #B22222 3px 2px 9px 1px;
+    background-color: #FF6961;
+}
