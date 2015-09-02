@@ -14,7 +14,7 @@ body {
     font-family: Hack, monospace;
     font-size: 12pt;
     line-height: 14pt;
-    color: #EDEDED;
+    color:  #03C03C;
     background-color: #333333;
     padding: 0;
     margin: 0;
@@ -35,6 +35,7 @@ a:visited {
 .nav {
     top: 0;
     left: 0;
+    position: fixed;
     padding: 20px;
     margin: 0;
     width: 100%;
@@ -47,20 +48,17 @@ a:visited {
 
 .nav li {
     display: inline;
-    padding: 20px;
-}
-
-.nav li:hover {
-    background-color: #FFF700;
+    padding: 20px; 
 }
 
 .content {
     border-radius: 0;
     box-shadow: #224C25 3px 3px 15px 2px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: 2000px;
     padding: 20px;
     background-color: #232323;
 }
@@ -69,13 +67,15 @@ a:visited {
     padding: 10px;
     width: 80px;
     height: 40px;
-    border-style: none;
-    box-shadow: #FF6961 3px 2px 9px 1px;
-    background-color: #B22222;
-    color: #F5F5F5;
+    border-style: solid;
+    border-color: #03C03C;
+    box-shadow: #224C25 3px 2px 9px 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #03C03C;
 }
 
 .base-btn:hover {
-    box-shadow: #B22222 3px 2px 9px 1px;
-    background-color: #FF6961;
+    box-shadow: #224C25 3px 2px 9px 1px;
+    background-color: #03C03C;
+    color: #EDEDED;
 }
